@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome To my Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    /* Reset some default browser styles */
+    body, h1, h2, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Body and container styling */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    /* Navigation styling */
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Page sections */
+    section {
+      padding: 40px 0;
+      margin: 20px 0;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My Webpage</h1>
-    <p>This is a simple HTML page.</p>
+
+  <!-- Navigation bar -->
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="Pages/about.html">About</a></li>
+        <li><a href="Pages/portfolio.html">Portfolio</a></li>
+        <li><a href="Pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm a web developer with a passion for creating clean and user-friendly websites. With a background in both design and development, I aim to build websites that are not only functional but also visually appealing.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <p>Here are a few projects I've worked on:</p>
+      <ul>
+        <li><strong>Project 1:</strong> A personal blog built using HTML, CSS, and JavaScript.</li>
+        <li><strong>Project 2:</strong> An e-commerce website with product listings and a shopping cart system.</li>
+        <li><strong>Project 3:</strong> A portfolio site showcasing web design and development skills.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out if you'd like to collaborate or learn more about my work.</p>
+      <p>Email: example@example.com</p>
+      <p>Phone: 123-456-7890</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
